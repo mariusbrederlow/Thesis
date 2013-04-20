@@ -35,6 +35,11 @@ Hier wird beschrieben wie die einzelnen Formate verglichen werden. Welche Kriter
 * ...
 
 ### XHTML
+#### Beschreibung
+Beschreibung des Formates
+#### Beispiel 
+Hier wird das Beispiel in dem jeweiligen Format dargestellt.
+#### Bewertung
 ### Collection+JSON
 ### HAL
 ### Atom
