@@ -1,0 +1,51 @@
+
+%########Titelseite###################################################################################
+
+\begin{titlepage}
+
+	\thispagestyle{empty}
+
+	\begin{minipage}{2.1cm}
+		\includegraphics[width=2cm]{graphicx/fh_logo_klein.jpg}
+	\end{minipage}
+	\begin{minipage}{10.0cm}
+		Ostfalia - Hochschule für angewandte Wissenschaften\\
+		Fachbereich Informatik\\
+		Studiengang Praktische Informatik
+	\end{minipage}
+
+	\vspace{35mm}
+
+	\begin{center}
+		\LARGE \textbf{Mein Thema der Bachelorarbeit\\[25mm]}
+	\end{center}
+
+	\begin{center}
+		\normalsize Bachelorarbeit\\[1cm]
+		Zur Erlangung des Grades eines Bachelor of Science\\ 
+		der Fakultät Informatik\\
+		der Ostfalia - Hochschule für angewandte Wissenschaften\\[18mm]
+	\end{center}
+
+	\begin{table}[h]
+		\centering
+		\hspace{50mm}\begin{tabular}{lcl}
+			eingereicht bei &  & Prof. Dr. XYZ\\
+			& & Zweitprüfer XYZ \\
+			& & \\
+			von & & Max Mustermann\\
+			& & Am Exer 2\\
+			& & 38302 Wolfenbüttel\\
+			& & Mat.-Nr. \\
+		\end{tabular}
+	\end{table}
+
+	\vspace{30mm}
+
+	\begin{table}[h]
+		\begin{tabular}{lll}
+			Wolfenbüttel, den \today\\
+		\end{tabular}
+	\end{table}
+
+\end{titlepage}

@@ -1,0 +1,20 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einleitung}{1}
+\contentsline {subsection}{\numberline {1.1}Motivation und Zielsetzung}{1}
+\contentsline {section}{\numberline {2}Hypermedia}{2}
+\contentsline {subsection}{\numberline {2.1}Definition}{2}
+\contentsline {subsection}{\numberline {2.2}H-Faktoren nach Amundsen}{2}
+\contentsline {subsection}{\numberline {2.3}Richardsons Maturity Model}{7}
+\contentsline {subsection}{\numberline {2.4}Hypermedia in der Praxis}{7}
+\contentsline {subsection}{\numberline {2.5}Design-Prozess}{7}
+\contentsline {subsection}{\numberline {2.6}Anwendungsbeispiel}{7}
+\contentsline {section}{\numberline {3}Bewertung}{8}
+\contentsline {subsection}{\numberline {3.1}Bewertungsgrundlage}{8}
+\contentsline {section}{\numberline {4}Hypermedia-Formate}{9}
+\contentsline {subsection}{\numberline {4.1}Basisformate}{9}
+\contentsline {subsection}{\numberline {4.2}JSON}{9}
+\contentsline {subsubsection}{\numberline {4.2.1}Beispielentworten aus der Anwendung}{9}
+\contentsline {subsubsection}{\numberline {4.2.2}Bewertung JSON}{9}
+\contentsline {section}{\numberline {5}Fazit und Ausblick}{10}
+\contentsline {section}{Literaturverzeichnis}{11}
+\contentsline {section}{Ehrenw\IeC {\"o}rtliche Erkl\IeC {\"a}rung}{12}

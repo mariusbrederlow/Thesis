@@ -1,0 +1,64 @@
+\input{style.sty}
+\begin{document}
+\input{emptypage.tex}
+% Titelseite
+\input{titlePage.tex}
+
+\onehalfspacing
+
+% Problemstellung
+\input{abstract.tex}
+
+% Sperrvermerk
+%\input{blockingnotice.tex}
+
+\singlespacing
+% Verzeichnisse
+\input{contents.tex}
+
+%########Textkörper#################################################################%
+
+%Seitennummerierung
+\pagenumbering{arabic}
+%eineinhalber-Zeilenabstand
+\onehalfspacing
+%Absatzhoehe im Textkoerper
+\parskip 1.0em
+
+% Für alle anderen Kapitel den section-name als headername nehmen
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO]{\footnotesize{\nouppercase{\rightmark}}}
+%\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[C]{\thepage}
+
+\input{chapter/einleitung.tex}
+\input{chapter/DefinitionVonHypermedia}
+\input{chapter/Bewertung}
+\input{chapter/HypermediaFormate}
+\include{chapter/Fazit}
+
+
+
+
+%########Literaturliste#############################################################%
+
+\renewcommand{\refname}{Literaturverzeichnis}
+\newpage
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\bibliographystyle{apalike} % alpha,apalike
+% Literaturliste endgueltig anzeigen
+\bibliography{literatur}
+
+%########Anhang####################################################################%
+
+%\input{chapter/appendix.tex}
+
+%########Ehrenwörtliche Erklärung##################################################%
+
+\input{honor.tex}
+
+\newpage
+\input{emptypage.tex}
+
+\end{document}

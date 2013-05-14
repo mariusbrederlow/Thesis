@@ -1,0 +1,121 @@
+%###################################################################################################
+%
+%Style für eine Abschlussarbeit an der Ostfalia - Hochschule für angewandte
+% Wissenschaften
+%
+%###################################################################################################
+
+%Schriftgr��e, Layout, Papierformat, Art des Dokumentes
+\documentclass[11pt,oneside,a4paper,ngerman]{article}
+%\documentclass[11pt,oneside,a4paper]{scrartcl}
+
+%Einstellungen der Seitenr�nder
+%bottom=0.4cm bedeutet 1.5cm ich wei� nicht warum
+\usepackage[left=3cm,right=1.5cm,top=2.5cm,bottom=1.5cm,includeheadfoot]{geometry}
+
+%F�r Zeilenabstand
+\usepackage{setspace}
+
+%neue Rechtschreibung, deutsches Datum etc.
+\usepackage[ngerman]{babel}
+%\usepackage{ngerman}
+
+%Umlaute erm�glichen
+\usepackage[utf8]{inputenc}
+
+%Schriftart auf Helvetica umstellen (aehnlich Arial unter Windows)
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%Sammelsurium
+\usepackage[T1]{fontenc} 
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+\usepackage{capt-of}
+\usepackage{listings}
+\usepackage{epsfig}
+
+%\usepackage{algorithm2e}
+\usepackage[ruled, vlined,boxed,commentsnumbered]{algorithm2e}
+\usepackage{array}
+
+%Richten den Absatz nach links aus (wird nicht bei Bachelorthesis benoetigt)
+\setlength{\parindent}{0pt} 
+
+%Kopf- und Fu�zeile
+\usepackage{fancyhdr}
+
+%PDF-Dateien einbinden
+\usepackage{pdfpages}
+
+%Groesse der Kopfzeile veraendern
+\addtolength{\headheight}{1.6pt}
+
+%Kapitelname �ndern
+\renewcommand\lstlistlistingname{Quellcodeverzeichnis}
+
+%Abk�rzungsverzeichnis
+\usepackage{nomencl}
+	\let\abbrev\nomenclature
+	\renewcommand{\nomname}{Abkürzungsverzeichnis}
+	\setlength{\nomlabelwidth}{.25\hsize}
+	\renewcommand{\nomlabel}[1]{#1\dotfill}
+	\setlength{\nomitemsep}{-\parsep}
+	\makeglossary
+\usepackage[normalem]{ulem}
+	\newcommand{\markup}[1]{\uline{#1}}
+
+
+%Pfeile usw. einf�gen
+\usepackage{amsmath}
+
+%f�r �berschriften > 4 Eintr�ge
+\setcounter{secnumdepth}{5}	%nummerierung im Text
+\setcounter{tocdepth}{3}	%nummerierung im Inhaltsverzeichnis
+
+%f�r farbigen Text
+\usepackage{color}
+
+%f�r mehrzeilige Kommentare
+\newcommand{\comment}[1]{}
+
+%f�r einen neuen Absatz ohne Einr�ckung mit einfachen Zeilenabstand
+\newcommand{\newpassage}{\hspace{1em}\vspace{1.0em}\\}
+
+%f�r einen neuen Absatz mit Einr�ckung mit einfachen Zeilenabstand
+\newcommand{\newpassageL}{\hspace{1em}\vspace{1.0em}\\ \hspace*{5mm}}
+
+%f�r das Zitieren aus einer bib-Datei
+\usepackage[round]{natbib}
+
+% Indirektes Zitieren
+\newcommand{\citeindirect}[2]{
+\footnote{Vgl. \citeauthor{#1} (\citeyear{#1}), S. #2.}
+}
+
+% direktes Zitieren
+\newcommand{\citedirect}[2]{
+\footnote{\citeauthor{#1} (\citeyear{#1}), S. #2.}
+}
+
+% Zitieren einer Abbildung
+\newcommand{\citeabb}[2]{
+\citeauthor{#1} (\citeyear{#1}), S. #2.
+}
+
+% Zitieren einer Quelle aus dem Internet
+\newcommand{\citeinternet}[2]{
+\footnote{Vgl. \citeauthor{#1} (\citeyear{#1}), S. #2.}
+}
+
+\newcommand{\tocite}[2]{
+	\ifthenelse{\equal{#2}{\empty}}
+		{\footnote{\citep[Vgl.][]{#1}}}
+		{\footnote{\citep[Vgl.][S. #2]{#1}}}}
+
+\usepackage{boxedminipage}
+
+%Eurozeichen
+\usepackage{eurosym}
+
+

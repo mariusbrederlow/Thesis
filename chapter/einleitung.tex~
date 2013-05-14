@@ -1,0 +1,32 @@
+
+\newpage
+\section{Einleitung}
+\subsection{Ausgangssituation (Ist)}
+
+	\begin{itemize}
+		\item Erläuterung des IST-Zustandes und
+		\item der daraus resultierenden Probleme\tocite{HMF92}{}
+		\item richtig Zitiert book\tocite{HMF92}{11}
+		\item richtig Zitiert booklet\tocite{subclipse}{11}
+		\item richtig Zitiert misc\tocite{phproject}{10}
+	\end{itemize}
+%	\abc{bla}\par	
+%	\abc[blupp]{bla}\par
+%	\abc[]{blupp}\par
+	Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, 
+	\textbf{Etwas Text und
+	\newpassage
+	ein Absatz ohne Einr\"uckung} Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, \textbf{und}
+
+	\textbf{nun noch ein Absatz mit Einr\"uckung.} Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text, Viel Text.
+
+\subsection{Ziel der Arbeit (Soll)}
+
+	\begin{itemize}
+		\item Erläuterung des Soll-Zustandes,
+		\item Ziel der Arbeit und
+		\item grobe Vorgehensweise
+		\item \textit{Local Area} (LA) \abbrev{LA}{\markup{L}ocal \markup{A}rea}
+	\end{itemize}
+
+

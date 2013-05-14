@@ -1,0 +1,40 @@
+
+%########Verzeichnisse#################################################################################
+
+	\newpage
+
+	%Seitennummerierung
+	\pagenumbering{Roman}
+
+	%Kopfzeile festlegen
+	\pagestyle{fancy}
+	\fancyhf{}
+	%Kopfzeile links
+	\fancyhead[L]{\footnotesize{\nouppercase{\leftmark}}}
+	%Kopfzeile rechts
+	\fancyhead[C]{\thepage}
+	%Linie oben
+	\renewcommand{\headrulewidth}{0.5pt}
+
+	\tableofcontents
+	%\addcontentsline{toc}{section}{Inhaltsverzeichnis}
+	\newpage
+	%Kopfzeile links neu setzen
+	%\fancyhead[L]{\footnotesize{Abkürzungsverzeichnis}}
+	%complilieren
+	%in der Konsole: makeindex name.glo -s nomencl.ist -o name.gls
+	%complilieren
+	%\printglossary
+	%\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+	%\newpage
+	%Kopfzeile links neu setzen
+	%\fancyhead[L]{\footnotesize{\nouppercase{\leftmark}}}
+	%\listoffigures
+	%\addcontentsline{toc}{section}{Abbildungsverzeichnis}
+	%\newpage
+	%\listoftables
+	%\addcontentsline{toc}{section}{Tabellenverzeichnis}
+	%\newpage
+	%\lstlistoflistings
+	%\addcontentsline{toc}{section}{Quellcodeverzeichnis}
+	%\newpage
