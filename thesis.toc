@@ -1,20 +1,30 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung}{1}
 \contentsline {subsection}{\numberline {1.1}Motivation und Zielsetzung}{1}
-\contentsline {section}{\numberline {2}Hypermedia}{2}
-\contentsline {subsection}{\numberline {2.1}Definition}{2}
-\contentsline {subsection}{\numberline {2.2}H-Faktoren nach Amundsen}{2}
-\contentsline {subsection}{\numberline {2.3}Richardsons Maturity Model}{7}
-\contentsline {subsection}{\numberline {2.4}Hypermedia in der Praxis}{7}
-\contentsline {subsection}{\numberline {2.5}Design-Prozess}{7}
-\contentsline {subsection}{\numberline {2.6}Anwendungsbeispiel}{7}
-\contentsline {section}{\numberline {3}Bewertung}{8}
-\contentsline {subsection}{\numberline {3.1}Bewertungsgrundlage}{8}
-\contentsline {section}{\numberline {4}Hypermedia-Formate}{9}
-\contentsline {subsection}{\numberline {4.1}Basisformate}{9}
-\contentsline {subsection}{\numberline {4.2}JSON}{9}
-\contentsline {subsubsection}{\numberline {4.2.1}Beispielentworten aus der Anwendung}{9}
-\contentsline {subsubsection}{\numberline {4.2.2}Bewertung JSON}{9}
-\contentsline {section}{\numberline {5}Fazit und Ausblick}{10}
-\contentsline {section}{Literaturverzeichnis}{11}
-\contentsline {section}{Ehrenw\IeC {\"o}rtliche Erkl\IeC {\"a}rung}{12}
+\contentsline {section}{\numberline {2}Hypermedia}{4}
+\contentsline {subsection}{\numberline {2.1}Definition}{4}
+\contentsline {subsection}{\numberline {2.2}Richardsons Maturity Model}{5}
+\contentsline {subsection}{\numberline {2.3}Hypermedia Faktoren nach Amundsen}{10}
+\contentsline {subsubsection}{\numberline {2.3.1}Embedding Links}{11}
+\contentsline {subsubsection}{\numberline {2.3.2}Outbound Links}{12}
+\contentsline {subsubsection}{\numberline {2.3.3}Templated Links}{12}
+\contentsline {subsubsection}{\numberline {2.3.4}Idempotent Links}{13}
+\contentsline {subsubsection}{\numberline {2.3.5}Non-Idempotent Links}{13}
+\contentsline {subsubsection}{\numberline {2.3.6}Read Controls}{14}
+\contentsline {subsubsection}{\numberline {2.3.7}Update Controls}{14}
+\contentsline {subsubsection}{\numberline {2.3.8}Method Controls}{15}
+\contentsline {subsubsection}{\numberline {2.3.9}Link Annotation Controls}{15}
+\contentsline {subsubsection}{\numberline {2.3.10}Design Elemente}{16}
+\contentsline {subsubsection}{\numberline {2.3.11}Hypermedia Ebenen}{17}
+\contentsline {subsection}{\numberline {2.4}Design-Prozess}{19}
+\contentsline {subsection}{\numberline {2.5}Anwendungsbeispiel}{19}
+\contentsline {section}{\numberline {3}Bewertung}{20}
+\contentsline {subsection}{\numberline {3.1}Bewertungsgrundlage}{20}
+\contentsline {section}{\numberline {4}Hypermedia-Formate}{21}
+\contentsline {subsection}{\numberline {4.1}Basisformate}{21}
+\contentsline {subsection}{\numberline {4.2}JSON}{21}
+\contentsline {subsubsection}{\numberline {4.2.1}Beispielentworten aus der Anwendung}{21}
+\contentsline {subsubsection}{\numberline {4.2.2}Bewertung JSON}{21}
+\contentsline {section}{\numberline {5}Fazit und Ausblick}{22}
+\contentsline {section}{Literaturverzeichnis}{23}
+\contentsline {section}{Ehrenw\IeC {\"o}rtliche Erkl\IeC {\"a}rung}{24}
